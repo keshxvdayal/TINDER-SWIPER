@@ -87,32 +87,21 @@
 
 .tinder--card.nope::after {
     content: url(../assets/red.webp);
-    color: #fe466d;
-    border: 6px solid #fe466d;
-    border-radius: 8px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    padding: 0.2rem 0.4rem;
     position: absolute;
-    top: 8%;
     right: 8%;
-    transform: rotate(15deg);
+    bottom: 17%;
+    transform: rotate(-15deg);
+    transform: scale(0.17);
+  
   }
   
   .tinder--card.like::after {
     content: url(../assets/green.webp);
-    color: #1be4a1;
-    border: 6px solid #1be4a1;
-    border-radius: 8px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    padding: 0.2rem 0.4rem;
     position: absolute;
-    top: 8%;
-    left: 8%;
+    right: 49%;
+    bottom: 65%;
     transform: rotate(-15deg);
+    transform: scale(0.5);
   }
   
   
